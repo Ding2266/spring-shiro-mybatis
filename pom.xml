@@ -11,6 +11,8 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+  		<mldnshiro.version>0.0.1</mldnshiro.version>
+  
 		<!-- 配置MyBatis相关开发依赖包版本 -->
 		<mybatis.version>3.4.5</mybatis.version>
 		<mysql.version>5.1.5</mysql.version>
@@ -67,6 +69,12 @@
 
   <dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>cn.mldn</groupId>
+				<artifactId>mldnshiro-ssm-api</artifactId>
+				<version>${mldnshiro.version}</version>
+			</dependency>
+		
 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid</artifactId>
