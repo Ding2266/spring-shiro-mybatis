@@ -29,6 +29,7 @@
 
 		<fileupload.version>1.3.3</fileupload.version>
 		<commons-io.version>2.5</commons-io.version>
+		<commons-logging.version>1.2</commons-logging.version>
 
 		<mybatis-spring.version>1.3.1</mybatis-spring.version>
 		<c3p0.version>0.9.5.2</c3p0.version>
@@ -73,6 +74,12 @@
 				<groupId>cn.mldn</groupId>
 				<artifactId>mldnshiro-ssm-api</artifactId>
 				<version>${mldnshiro.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>commons-logging</groupId>
+				<artifactId>commons-logging</artifactId>
+				<version>${commons-logging.version}</version>
 			</dependency>
 		
 			<dependency>
@@ -294,5 +301,6 @@
 	
   <modules>
     <module>mldnshiro-ssm-api</module>
+    <module>mldnshiro-ssm-service</module>
   </modules>
 </project>
