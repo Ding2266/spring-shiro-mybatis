@@ -1,5 +1,7 @@
 package cn.mldn.mldnshiro.ssm.dao;
 
-public interface IMemberDAO {
+import cn.mldn.mldnshiro.ssm.vo.Member;
 
+public interface IMemberDAO {
+	public Member findById(String mid) ; 
 }

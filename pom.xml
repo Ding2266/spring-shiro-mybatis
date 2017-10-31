@@ -72,6 +72,11 @@
 		<dependencies>
 			<dependency>
 				<groupId>cn.mldn</groupId>
+				<artifactId>mldnshiro-ssm-service-member</artifactId>
+				<version>${mldnshiro.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.mldn</groupId>
 				<artifactId>mldnshiro-ssm-api</artifactId>
 				<version>${mldnshiro.version}</version>
 			</dependency>
